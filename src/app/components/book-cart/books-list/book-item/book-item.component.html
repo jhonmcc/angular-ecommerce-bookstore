@@ -1,1 +1,18 @@
-<p>book-item works!</p>
+<div class="card shadow-sm">
+    <img class="bd-placeholder-img card-img-top" width="100%"   src='{{livro.capa}}'>
+
+    <div class="card-body">
+      <p class="card-text">{{ livro.nome }}</p>
+      <p class="card-text">{{ livro.genero }}</p>
+      <p class="card-text">{{ livro.lancamento }}</p>
+      <p class="card-text">{{ livro.autor }}</p>
+      <p class="card-text">{{livro.preco | currency:'BRL'}}</p>
+      <p class="card-text">{{ livro.estoque }}</p>
+
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>

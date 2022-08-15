@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,7 +10,7 @@ import { NavComponent } from './components/shared/nav/nav.component';
 import { BookCartComponent } from './components/book-cart/book-cart.component';
 import { BooksListComponent } from './components/book-cart/books-list/books-list.component';
 import { SearchFilterComponent } from './components/book-cart/search-filter/search-filter.component';
-import { BookItemComponent } from './components/book-cart/book-list/book-item/book-item.component';
+import { BookItemComponent } from './components/book-cart/books-list/book-item/book-item.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BookItemComponent } from './components/book-cart/book-list/book-item/bo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

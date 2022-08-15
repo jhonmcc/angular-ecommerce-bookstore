@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "genero": "comedia romantica",
+        "nome": "Amizade Colorida",
+        "lancamento": 2012,
+        "preco": 12.12,
+        "capa": "https://img.freepik.com/vetores-gratis/livros-stack-realistic_1284-4735.jpg?w=740&t=st=1660600923~exp=1660601523~hmac=dad529c3c62aa615ee3b89cebd247431e06518ab35b8b1ff0b8c57840bc44cbf",
+        "autor": "Nome Autor",
+        "estoque": 12
+    },
+    {
+        "id": 2,
+        "genero": "comedia",
+        "nome": "O Auto da Compadecida",
+        "lancamento": 2017,
+        "preco": 22.12,
+        "capa": "https://img.freepik.com/vetores-gratis/livros-stack-realistic_1284-4735.jpg?w=740&t=st=1660600923~exp=1660601523~hmac=dad529c3c62aa615ee3b89cebd247431e06518ab35b8b1ff0b8c57840bc44cbf",
+        "autor": "Nome Autor",
+        "estoque": 2
+    }
+]
